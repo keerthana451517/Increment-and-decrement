@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 6%;
+    color:aqua;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+ justify-content: center;  
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin:5px 40px;
+    cursor: pointer;
+   
+}
+
+#count {
+    font-size: 2rem;
+    margin: 10px 10px;
+}
